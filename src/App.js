@@ -21,8 +21,7 @@ function App() {
           </Route>
           <Route path="/blogs/:id" element={ <BlogDetails/> }>
           </Route>
-          <Route path="*">
-            <NotFound />
+          <Route path="*" element={ <NotFound/> }>
           </Route>
         </Routes>
      </div>
